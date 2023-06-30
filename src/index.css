@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.greadient{
+  /* font-size: 72px; */
+  background: -webkit-linear-gradient(#0b0a0a, #cb0d0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .btn-custom-style li a:hover {
+  color: #555;
+} */
+/* .btn-custom-style li a{
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.btn-custom-style li a::after{
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '.';
+  color: transparent;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: transparent; 
+} */
+/* .btn-custom-style li a:hover::after {
+  -webkit-animation: circle 1.5s ease-in forwards;
+  animation: circle 1.5s ease-in forwards;
+} */
+
+.is-active {
+  /* background-color: yellowgreen;
+  border-radius: 15px; */
+  /* text-decoration: underline; */
+  color: rgb(235, 94, 94)
+  /* @apply text-lg font-bold text-gray-900; */
+   /* @apply after:bg-black after:h-[2px]  after:absolute after:bottom-0 after:left-0 after:transition-all after:duration-200 after:transform after:scale-x-0 hover:after:scale-x-100 */
+}

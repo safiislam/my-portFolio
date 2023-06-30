@@ -1,0 +1,41 @@
+.card-container{
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+   
+}
+.layer:hover {
+    background: rgba(141, 121, 121, 0.547);
+    cursor: pointer;
+    
+    
+}
+.layer .layter-text {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 100%;
+    
+    color: white;
+    font-weight: 600;
+    padding: 25px;
+    transition: .5s;
+    opacity: 0;
+    text-align: center;
+
+
+}
+.layer:hover .layter-text{
+    bottom: 45%;
+    opacity: 1;
+}
